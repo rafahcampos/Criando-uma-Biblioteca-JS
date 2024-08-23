@@ -1,0 +1,16 @@
+{
+  "name": "criando-uma-biblioteca",
+  "version": "1.0.0",
+  "description": "```\r ##Pegando o arquivo:\r require() -> capta um arquivo externo, mas só funciona com módulos ou arquivos js (similares)\r process.argv -> pega os valores do conteudo do terminal e passa para um array\r no cmd -> node src/index.js arquivos/texto-web.txt\r ```\r ```\r fs = file system (biblioteca que lida com arquivos, é nativa do node)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

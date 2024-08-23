@@ -5,7 +5,7 @@
         return verificaPalavrasDuplicadas(paragrafo)
     })
 
-    console.log(contagem);
+   return contagem;
 }
 
 function extraiParagrafos(texto) {
@@ -24,9 +24,9 @@ function verificaPalavrasDuplicadas(texto) {
             const palavraLimpa = limpaPalavras(palavra);
             resultado[palavraLimpa] = (resultado[palavraLimpa] || 0) + 1
         }
-    });
+    })
     return resultado;
-}
+};
 
 
 

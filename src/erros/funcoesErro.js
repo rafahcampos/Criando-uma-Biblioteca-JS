@@ -5,5 +5,3 @@ export default function trataErros(erro){
         return "Erro na aplicação"
     }
 }
-
-module.exports = trataErros;
